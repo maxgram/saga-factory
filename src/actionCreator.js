@@ -53,7 +53,7 @@ export const createAction = name => {
 }
 
 // createRequestAction -> returns REQUEST/SUCCESS/FAILURE action set
-export const createRequestAction = name => {
+const createRequestAction = name => {
   const reqTypes = _createActionTypes(name, requestCases)
   const rsAction = createAction(name)
   const fetchCallbacks = _sagaReqObjGenerator(reqTypes)
@@ -80,4 +80,4 @@ export const createCustomRequestActionSet = (name, cases=['CUSTOM1', 'custom2'])
 }
 
 // createCrudActionSet -> returns CRUD cases action set
-export const createCrudActionSet = name => createCustomRequestActionSet(name, crudCases);
+// export const createCrudActionSet = name => createCustomRequestActionSet(name, crudCases);
