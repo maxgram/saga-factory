@@ -1,6 +1,6 @@
 {
   "name": "saga-factory",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Minimizing boilerplate utility when using redux-saga",
   "main": "lib/index.js",
   "scripts": {
