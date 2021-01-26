@@ -17,4 +17,4 @@ const output = {
   // createCrudActionSet,
 }
 
-export output;
+export default output;
