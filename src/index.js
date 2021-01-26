@@ -6,11 +6,15 @@ import {
 } from './actionCreator'
 import { bindFetch } from './fetchCycle'
 
-export {
+
+const output = {
   createSimpleAction: createAction,
   createAction: createCustomRequestActionSet,
+  bindFetch
+
   // createRequestAction,
   // createCustomRequestActionSet,
   // createCrudActionSet,
-  bindFetch
 }
+
+export output;
