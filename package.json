@@ -11,10 +11,10 @@
   "author": "Max Gram",
   "repository": {
     "type": "git",
-    "url": "git://github.com/max-gram/saga-factory.git"
+    "url": "git://github.com/maxgram/saga-factory.git"
   },
   "bugs": {
-    "url": "https://github.com/max-gram/saga-factory/issues"
+    "url": "https://github.com/maxgram/saga-factory/issues"
   },
   "license": "MIT",
   "devDependencies": {

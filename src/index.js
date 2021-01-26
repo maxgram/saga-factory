@@ -1,15 +1,16 @@
 import {
   createAction,
-  createRequestAction,
+  // createRequestAction,
   createCustomRequestActionSet,
-  createCrudActionSet
+  // createCrudActionSet
 } from './actionCreator'
 import { bindFetch } from './fetchCycle'
 
 export {
-  createAction,
-  createRequestAction,
-  createCustomRequestActionSet,
-  createCrudActionSet,
+  createSimpleAction: createAction,
+  createAction: createCustomRequestActionSet,
+  // createRequestAction,
+  // createCustomRequestActionSet,
+  // createCrudActionSet,
   bindFetch
 }
