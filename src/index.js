@@ -1,20 +1,25 @@
 import {
-  createAction,
+  createAction as createSimpleAction,
   // createRequestAction,
-  createCustomRequestActionSet,
+  createCustomRequestActionSet as createAction,
   // createCrudActionSet
 } from './actionCreator'
 import { bindFetch } from './fetchCycle'
 
 
-const output = {
-  createSimpleAction: createAction,
-  createAction: createCustomRequestActionSet,
+// const output = {
+//   createSimpleAction: createAction,
+//   createAction: createCustomRequestActionSet,
+//   bindFetch
+
+//   // createRequestAction,
+//   // createCustomRequestActionSet,
+//   // createCrudActionSet,
+// }
+
+// export default output;
+export {
+  createSimpleAction,
+  createAction,
   bindFetch
-
-  // createRequestAction,
-  // createCustomRequestActionSet,
-  // createCrudActionSet,
 }
-
-export default output;
